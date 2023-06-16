@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Task</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="wrapper">
+      <div class="head">
+        <h1>TO DO LIST</h1>  
+      </div>
+
+      <div class="page">
+  <div class="left">
+    <form action="" method="get" id="form" onsubmit="event.preventDefault()" >
+     
+      <div class="form-control"form>
+      <label for="" id="activity" >Activity :</label>
+      <input type="text"  placeholder="Add activity"  >
+      <div id="msgA"></div> 
+
+     </div>
+    
+    <div class="form-control">
+      <label  for="">Start Date :</label>
+      <input id="sDate" type="date" placeholder="Start date"  required >
+      <div class="msg"></div> 
+
+    </div>
+
+
+    <div class="form-control">
+      <label for="">Due Date :</label>
+      <input id="dDate"  type="date"  placeholder="select date" required>
+      <div id="msg"></div> 
+
+    </div>
+
+
+    <div class="form-control">
+      <label for="">Status :</label>
+      <select name="" id="options" placeholder="Add status" required > 
+        <option  value="">Add Status</option>
+        <option id="st" value="Started">Started</option>
+        <option id="ns" value="Not-Started">Not-Started</option>
+        <option id="ip" value="In-Progress">In-Progress</option>                       
+        <option id="dp" value="Due-passed">Due Passed</option>
+        <option id="co" value="completed">completed</option>
+      </select>
+      <div class="msg"></div> 
+     
+     </div>
+      
+<div class="form-control" id="btnflex" >
+    <button class="btns" id="add" type="submit" > Add</button>
+    <button class="btns" type="reset" id="clear" >Clear</button>
+
+</div>
+    </form>
+  <!-- </div> -->
+        
+      </div>
+  
+  <div class="right">
+   
+     <div class="search">
+
+
+          <form  id="form-search" onsubmit="event.preventDefault()" >
+            <input type="text" placeholder="Search.." id="searchBox" name="search">
+            <button class="sech" id="s" type="submit" onclick="searchTable()"><i class="fa fa-search"  ></i></button>
+          </form>
+          
+    </div>
+      <!-- <h2>Table</h2> -->
+      <div class="display">
+      <table  border="1" id="table">
+        <thead >
+          <tr>
+            <th>Activity</th>
+            <th>Start Date</th>
+            <th>Due Date</th>
+            <th>Status</th>
+            <th>Actions</th>
+        </tr>   
+        </thead>
+         
+         <tbody id="tContaint">
+         
+         </tbody>
+      </table>
+      
+   </div>
+  </div>
+     
+</div>
+<script src="./try.js"></script>
+</body>
+</html>

@@ -1,0 +1,229 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+  }
+  
+  .wrapper{
+    height: 100vh;
+    overflow-x: hidden;
+  }
+  .head{
+    border: 2px solid black;
+    height: 15%;
+    color: white;
+    background-color: rgb(104, 196, 199);
+    text-align: center;
+    padding-top: 30px;
+  }
+  .page{
+    height: 85%;
+    display: flex;
+    text-align: center;
+  }
+  .left{
+    width: 40%;
+
+  }
+  .left form{
+    height: 85%;
+    margin: 10%;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+  background-color: #b4e4e1;
+  }
+ 
+  input, select {
+    width: 65%;
+    padding: 12px 20px;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 20px;
+  }
+ 
+     #sDate{
+       margin-left: 2%;
+   
+     }
+     #dDate{
+       margin-left: 2.7%;
+   
+     }
+     #options{
+       margin-left: 8%;
+   
+     }
+
+  .msg{
+    color: red;
+    margin-left: 20px;
+    margin-bottom: -1rem;
+    visibility: hidden;
+  
+  }
+  
+  label{
+    text-align: left;
+    align-items: flex-start;
+  }
+  .right{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    justify-content: center;
+  }
+  .right h2{
+    width: 100%;
+    height: 10%;
+  }
+  .display{
+    height: 90%;
+    display: flex;
+    justify-content: center;
+   overflow-x: hidden;
+  }
+  #table{
+    border-radius: 20px;
+    border: 1px solid rgb(216, 211, 211);
+    border-collapse: collapse;
+    margin-top: 2rem;
+    width: 70%;
+    height: 2rem;
+   
+  }
+ 
+  th
+  {
+    padding: 15px;
+    text-align: left;
+    background-color: #d4dbf1;
+    position: sticky;
+  }
+  td {
+    padding: 15px;
+    text-align: left;
+    background-color: white;
+    color: #171616;
+    font-size: medium;
+  }
+
+ 
+  .form-control{
+    text-align: center;
+  }
+  .form-control label{
+    color: rgb(19, 18, 18);
+    font-size: larger;
+  }
+  #btnflex{
+    display: flex;
+    height: 50px;
+    width: 100%;
+    justify-content:space-evenly;
+
+  }
+  .btns{
+    width: 40%;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight:bold;
+  }
+#s{
+    width: 15%;
+    padding: 8px;
+    font-size:large;
+}
+
+  form.sech button {
+    width: 15%;
+    padding: 10px;
+    background: #89bfeb;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    border: none;
+    cursor: pointer;
+  }
+  .sech{
+    margin-top: 20px;
+  }
+
+  #add i{
+    color: #89eba2;
+    height: 20px ;
+    width: 20px;
+  }
+  .deletebtn{
+    color: rgb(247, 163, 163);
+    background-color: #89eba2;
+  }
+
+  .dit-btn{
+    background-color: #646b3c;
+    color: #96c9f1;
+  }
+  #msg{
+    color: red;
+    visibility: hidden;
+    margin-left:4rem;
+  }
+  #msgA{
+    color: red;
+    visibility: hidden;
+    margin-left:4rem;
+  }
+
+  .strikeout {
+    text-decoration: line-through;
+    color: rgb(17, 14, 14);
+  }
+  .completed {
+    text-decoration: line-through;
+  }
+
+  .edit-btn{
+    background-color: rgb(112, 224, 224);
+    height:3rem;
+    width: 3rem;
+    border-radius: 10px;
+    cursor: pointer;
+  }
+
+  .delete-btn{
+    width: 3rem;
+    height: 3rem;
+    background-color: rgb(241, 107, 107);
+    border-radius: 10px;
+    cursor: pointer;
+
+    margin: 1rem;
+  }
+
+ #add{
+    background-color: #71b5ec;
+ }
+  #clear{
+    background-color: rgb(241, 143, 143);
+  }
+  #tContaint{
+    background-color: #a7cbec;
+    height: 2rem;
+  }
+  tbody{
+    background-color: #a4e9fa;
+    height: 2rem;
+  }
+  
+  td {
+    padding: 15px;
+    text-align: left;
+    background-color: white;
+    color: #171616;
+    font-size: medium;
+    height: 50px;
+  }
+  
